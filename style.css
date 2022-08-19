@@ -137,6 +137,11 @@ nav ul li a:hover::after {
 }
 
 /*------------------ About section--------------  */
+#About {
+    margin-top: 2.5rem;
+    margin-bottom: -2rem;
+}
+
 #About-head {
     font-family: 'Signika Negative', sans-serif;
     text-align: center;

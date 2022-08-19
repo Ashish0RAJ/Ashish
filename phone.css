@@ -1,8 +1,9 @@
 @media(max-width:625px) {
     body {
         background-image: url('./phone_bg.jpg');
-        background-size: cover;
+        /* background-size: cover; */
         background-repeat: no-repeat;
+        background-size: 100% auto;
     }
 
     nav ul {
@@ -55,19 +56,25 @@
         position: fixed;
     }
 
-    footer {
-        background: linear-gradient(rgba(0, 0, 0, 0.881), rgba(0, 0, 255, 0.53)), url('./pc\ footer.jpg');
+    #About {
+        background-image: url('./phone-about.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
-        margin-top: 2rem;
+        background-size: 100% 100%;
+    }
+
+    footer {
+        background: linear-gradient(rgba(0, 0, 0, 0.881), rgba(0, 0, 255, 0.53)), url('./phone-footer.png');
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        /* margin-top: 2rem; */
         padding-bottom: 5rem;
     }
 
     footer:hover {
         transition: .3s;
-        background: linear-gradient(rgba(0, 0, 0, 0.930), rgba(0, 0, 255, 0.60)), url('./pc\ footer.jpg');
+        background: linear-gradient(rgba(0, 0, 0, 0.930), rgba(0, 0, 255, 0.60)), url('./phone-footer.png');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100% auto;
         margin-top: 2rem;
     }
 }
