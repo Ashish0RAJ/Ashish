@@ -1,0 +1,73 @@
+@media(max-width:625px) {
+    body {
+        background-image: url('./phone_bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    nav ul {
+        position: fixed;
+        display: block;
+        top: 0rem;
+        left: -100%;
+        /* background-color: rgba(0, 0, 0, 0.621); */
+        background-image: url('./menu_bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        transition: all .3s ease-in-out;
+        z-index: 9;
+    }
+
+    nav ul li {
+        margin-top: 80px;
+    }
+
+    nav ul li a {
+        font-size: 30px;
+
+    }
+
+    nav ul li a:hover::after {
+        width: 0;
+    }
+
+    nav ul li a:hover {
+        color: cyan;
+    }
+
+    .menu-btn i {
+        display: block;
+    }
+
+    .menu-btn i:hover {
+        color: cyan;
+    }
+
+    #click:checked~ul {
+        left: 0%;
+    }
+
+    #click:checked~.menu-btn i::before {
+        content: '\f00d';
+        position: fixed;
+    }
+
+    footer {
+        background: linear-gradient(rgba(0, 0, 0, 0.881), rgba(0, 0, 255, 0.53)), url('./pc\ footer.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 2rem;
+        padding-bottom: 5rem;
+    }
+
+    footer:hover {
+        transition: .3s;
+        background: linear-gradient(rgba(0, 0, 0, 0.930), rgba(0, 0, 255, 0.60)), url('./pc\ footer.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 2rem;
+    }
+}
