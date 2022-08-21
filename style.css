@@ -72,9 +72,8 @@ nav ul li a:hover::after {
     cursor: default;
 }
 
-.logo p:hover {
-    font-size: 1.7rem;
-    transition: .3s;
+.animate__animated.animate__hinge {
+    animation-duration: 2s;
 }
 
 .logo img {

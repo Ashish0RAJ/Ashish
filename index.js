@@ -15,3 +15,12 @@ function live() {
 live();
 
 setInterval(live, 1000);
+
+function repeat() {
+    let logotext = document.getElementById('logo-text');
+    logotext.classList.remove("animate__hinge");
+    logotext.addEventListener('mouseover', () => {
+        logotext.classList.add("animate__hinge");
+    });
+}
+setInterval(repeat, 3700);
