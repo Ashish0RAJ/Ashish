@@ -101,18 +101,15 @@ nav ul li a:hover::after {
     width: 60px;
     height: 60px;
     border-radius: 3rem;
-    /* border: 2px solid rgba(0, 255, 255, 0.57); */
 }
 
 .logo img:hover {
     box-shadow: rgba(51, 150, 154, 0.4) 0 4px 8px, rgba(11, 188, 252, 0.3) 0 7px 13px -3px;
     transform: translateY(-3.5px);
     cursor: pointer;
-    transition: all .3s ease-in-out;
-    /* border: 0px solid rgba(0, 255, 255, 0.57); */
 }
 
-/* buttom section  */
+/* button section  */
 #click {
     display: none;
 }
