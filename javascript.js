@@ -12,6 +12,7 @@ function live() {
     const year = (days / 365);
     ageEL.innerHTML = year;
 }
+live();
 
 setInterval(live, 1000);
 
